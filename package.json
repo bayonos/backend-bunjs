@@ -1,0 +1,17 @@
+{
+  "name": "smartfarm-auth-backend",
+  "version": "1.0.0",
+  "description": "Bun TypeScript login and authentication backend (smartfarm_db / MySQL & SQLite)",
+  "type": "module",
+  "scripts": {
+    "start": "bun run src/main.ts",
+    "dev": "bun --watch src/main.ts",
+    "test": "bun test",
+    "smoke": "bash scripts/smoke_test.sh",
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@types/bun": "latest",
+    "typescript": "^5.7.0"
+  }
+}
